@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 
-with open('/home/amit/trail/.venv/intents.json','r') as f:
+with open('intents.json','r') as f:
     intents = json.load(f)
 
 #print(intents)
