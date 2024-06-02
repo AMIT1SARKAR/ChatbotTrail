@@ -6,7 +6,7 @@ from trail_nltk import bag_of_words , tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('/home/amit/trail/.venv/intents.json','r') as f:
+with open('intents.json','r') as f:
     intents = json.load(f)
 
 FILE="data.pth"
